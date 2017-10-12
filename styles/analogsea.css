@@ -1,0 +1,71 @@
+body{
+	background-color: rgb(36, 131, 231);
+	font-family: 'Roboto', sans-serif;
+	padding: 60px 0 0;
+	font-size: 18px;
+}
+
+fieldset {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.logo{
+	display: block
+	width: auto;
+	height: 35px;
+	margin: 0 auto 30px;
+}
+
+.signup-form{
+	width: 400px;
+	padding: 40px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.signup-form legend {
+	width: 100%;
+	font-size: 35px;
+	font-weight: 300;
+	color: #565656;
+	text-align: center;
+	letter-spacing: 0;
+	margin: 0 auto 45px;
+}
+
+input [type="email"], input [type="password"], button [type="submit"]{
+	display: block;
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+	text-align:left;
+	padding: 15px;
+	border 2px solid #e7e7e7;
+	border-radius: 3px;
+	background: #fcfcfc;
+	margin: 10px auto 20px;
+	transition: opacity 0.4s;
+
+
+}
+
+.signup-form p {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0 0;
+  color: #696969;
+}
+
+.signup-form a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid #bbb;
+}
+
+.signup-form a:hover {
+  border-color: #999;
+  color: #777;
+}
